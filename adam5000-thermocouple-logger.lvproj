@@ -98,6 +98,7 @@
 		<Item Name="main-all-channels.vi" Type="VI" URL="../main-all-channels.vi"/>
 		<Item Name="main-dev.vi" Type="VI" URL="../main-dev.vi"/>
 		<Item Name="main-thermocouple-logger.vi" Type="VI" URL="../main-thermocouple-logger.vi"/>
+		<Item Name="single-point-cal.vi" Type="VI" URL="../sub-vi/single-point-cal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
