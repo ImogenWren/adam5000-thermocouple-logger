@@ -217,6 +217,47 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">11</Property>
 			</Item>
+			<Item Name="Thermocouple-Logger" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{76465EB4-85F9-434B-AE61-C3AB83B13C84}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7BD0A6C1-78F3-4928-BD37-E328AEB13EBD}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F820C343-2F89-4958-AE61-549F764C8A49}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Thermocouple-Logger</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Thermocouple-Logger</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{AE86488C-2F2E-4C5A-80F6-4AD9A4B8A3FB}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">ThermoCouple-Logger.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Thermocouple-Logger/ThermoCouple-Logger.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Thermocouple-Logger/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5BFDA80B-2A86-4D1A-911F-70B275CBDD6A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main-thermocouple-logger.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Thermocouple-Logger</Property>
+				<Property Name="TgtF_internalName" Type="Str">Thermocouple-Logger</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_productName" Type="Str">Thermocouple-Logger</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D83B9DC5-698D-452E-AEE7-FEE9B601E57C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ThermoCouple-Logger.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
